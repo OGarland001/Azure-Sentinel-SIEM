@@ -1,15 +1,4 @@
-# AWS-Azure-Sentinel-SIEM
-
-## AWS free Tiers:
-
-AWS Site:
-https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all
-
-750 Hours of Linx, Windows, RHEL, SLES. For my free account. this should be good for me since it will allow for me to host my windows VM and S3 Bucket.
-
-S3 Bucket 5 GB of standard storage.
-
-**Make Sure to have the cap on the usage just in case it goes over**
+# Azure-Sentinel-SIEM
 
 ## Azure:
 
@@ -20,3 +9,10 @@ New workspaces can ingest up to 10GB/day of log data for the first 31-days at no
 Usage beyond these limits will be charged per pricing listed on this page. Charges related to additional capabilities for automation and bring your own machine learning are still applicable during the free trial.
 
 https://azure.microsoft.com/en-ca/pricing/details/microsoft-sentinel/#:~:text=Microsoft%20Sentinel%20can%20be%20enabled,31%2Ddays%20at%20no%20cost.
+
+
+The Process:
+![image](https://github.com/OGarland001/AWS-Azure-Sentinel-SIEM/assets/90342911/edd5b780-935f-4d33-828c-4313cb9d0cf6)
+
+We are going to open up a VM and turn off all firewall rules (*Unrecommended*), but for the lab it is what we want to do so that the world wide hackers will be able to identify the machine and begin trying to hack into it.
+
