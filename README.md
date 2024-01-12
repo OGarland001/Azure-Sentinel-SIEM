@@ -38,8 +38,24 @@ Each login attempt we are going to use Event Viewer to log each one and then we 
 Loaded in a powershell program that will use the logs and then use the API to geolocate every login attempt so we can monitor.
 ![Alt text](image-3.png)
 
+After approximate 8hours I have noticed that russia and china picked up the box.
+
+![Alt text](image-4.png).
+
 ### Log repository inside Log Analytics Workspace
+
+Now that the logs are filling out because Russia and China found it I can fix up the table and logs.
+
+The date and time is 5hours ahead of my time in eastern standard time so I am going to manipulate the logs so that they will be showing the proper time.
+
+Extracted the data from the raw data logs
+
+![Alt text](image-5.png)
+removed my public IP when I was first testing the logs
 
 ### Setup Azure Sentinel
 
 This will allow for us to map the data coming from the logs and place the geolocation we are tracking on the map.
+
+Final Setup, Very nice i marked out my IP.
+![Alt text](image-6.png)
