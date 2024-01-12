@@ -59,3 +59,9 @@ This will allow for us to map the data coming from the logs and place the geoloc
 
 Final Setup, Very nice i marked out my IP.
 ![Alt text](image-6.png)
+
+checking out the usernames tried for each attempt
+
+![Alt text](image-7.png)
+![Alt text](image-8.png)
+Some of the usernames and IPs are blocked that is from me testing and getting some of my friends to try it out with the logging system.
