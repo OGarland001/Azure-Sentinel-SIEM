@@ -1,5 +1,20 @@
 # Azure-Sentinel-SIEM
 
+## Introduction
+
+In an era dominated by digital advancements, cybersecurity has become an ever-pressing concern. As part of our commitment to fortifying digital defenses, I built a project that seamlessly integrates Azure cloud services with the strategic deployment of honeypots. The objective? To not only detect potential threats but also to visually represent the cyber landscape by geolocating external actors attempting unauthorized access.
+
+## Project Overview
+
+Our project revolves around the establishment of a honeypot, a deceptive system designed to lure potential attackers, hosted on the Microsoft Azure cloud platform. Leveraging the robust capabilities of Azure, we created an intricate network infrastructure that mirrors the complexity of real-world systems, making it an enticing target for cyber adversaries.
+
+## Future Plans
+
+- I did explore the list of usernames used but the windows event viewer is a extensive logging tool so there is lots of events I could be tracking to visualize.
+- I have a plan to work with more SIEM based projects specifically using Linux and the Elastic tech stack.
+- https://github.com/telekom-security/tpotce
+
+# Notes
 ## Azure:
 
 Free trial
