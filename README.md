@@ -38,12 +38,15 @@ We are going to open up a VM and turn off all firewall rules (_Unrecommended_), 
 Create a virtual machine, turn off the external azure firewall and turn off the internal windows firewall for the VM. This will make it very easy to detect and cause more hackers to detect it and try to break into it, but since we are making a honeypot it is good so that we can detect all of the people trying to break into the system.
 
 new firewall config
+
 ![New Fire wall config](image.png)
 
 remove everything from this firewall we gotta make it unsafe
+
 ![Alt text](image-1.png)
 
 adding these rules to allow anything
+
 ![](image-2.png)
 
 Got the VM setup and remooved the windows fire wall, now we are going to need to be viewing the Event Viewer so we can grab our authenication logs.
@@ -51,6 +54,7 @@ Got the VM setup and remooved the windows fire wall, now we are going to need to
 Each login attempt we are going to use Event Viewer to log each one and then we can grab an IP address from that event then map it to our global map but we gotta an API for that and that is where ipgeolocation comes in.
 
 Loaded in a powershell program that will use the logs and then use the API to geolocate every login attempt so we can monitor.
+
 ![Alt text](image-3.png)
 
 After approximate 8hours I have noticed that russia and china picked up the box.
@@ -66,13 +70,15 @@ The date and time is 5hours ahead of my time in eastern standard time so I am go
 Extracted the data from the raw data logs
 
 ![Alt text](image-5.png)
+
 removed my public IP when I was first testing the logs
 
 ### Setup Azure Sentinel
 
 This will allow for us to map the data coming from the logs and place the geolocation we are tracking on the map.
 
-Final Setup, Very nice i marked out my IP.
+Final Setup, Very nice I marked out my IP.
+
 ![Alt text](image-6.png)
 
 checking out the usernames tried for each attempt
