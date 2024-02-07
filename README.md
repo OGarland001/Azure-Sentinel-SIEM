@@ -49,7 +49,7 @@ adding these rules to allow anything
 
 ![](image-2.png)
 
-Got the VM setup and remooved the windows fire wall, now we are going to need to be viewing the Event Viewer so we can grab our authenication logs.
+Got the VM setup and removed the windows fire wall, now we are going to need to be viewing the Event Viewer so we can grab our authenication logs.
 
 Each login attempt we are going to use Event Viewer to log each one and then we can grab an IP address from that event then map it to our global map but we gotta an API for that and that is where ipgeolocation comes in.
 
